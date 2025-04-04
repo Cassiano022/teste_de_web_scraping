@@ -6,7 +6,7 @@ import re
 from urllib.parse import urljoin
 
 def create_directory(directory):
-    
+    #codigo usado para acessar o site, e extrair os pdf
     if not os.path.exists(directory):
         os.makedirs(directory)
         print(f"Diretório '{directory}' criado com sucesso.")
